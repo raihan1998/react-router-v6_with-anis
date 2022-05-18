@@ -1,0 +1,25 @@
+nav{
+    height: 10vh;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+}
+/* active nav */
+nav .active{
+    background-color: #5e636e;
+    /* border-radius: 4px; */
+    padding: 2px 5px;
+}
+.nav-link{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.nav-link:hover{
+    color: white;
+    background-color: #5e636e;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
